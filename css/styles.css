@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "ProximaNova";
+  src: url("./font/ProximaNova-Bold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("./font/ProximaNova-Reg.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.orange {
+  color: #FF7548;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 3em;
+  left: 3em;
+}
+
+.page-section {
+  display: block;
+  margin-bottom: 0.7em;
+}
+
+.page-section a {
+  font-size: 1.2em;
+  opacity: 0.4;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1.3px;
+}
+
+.page-section a:hover, .page-section .selected {
+  opacity: 0.6;
+  color: black;
+}
+
+.page-section a:focus {
+  outline: 0;
+}
+
+.page-title a {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-title {
+  margin-bottom: 0.3em;
+}
+
+.page-body {
+  margin-left: 450px;
+  margin-right: 5vw;
+  padding-top: 3em;
+}
+
+.page-desc {
+  font-weight: bold;
+  color: #ddd;
+  letter-spacing: 1px;
+}
+
+.page-image {
+  width: 100%;
+}
+
+.page-art-desc {
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  opacity: 0.4;
+}
+
+.carousel {
+  margin-bottom: 35px;
+}
+
+.carouselImage {
+  width: 100%;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media(max-width: 1000px){
+  .page-body {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 48px;
+  }
+  
+  .fixed-nav {
+    display: none;
+  }
+  
+  .mobile-nav {
+    left: 0;
+    right: 0;
+    top: 0;
+    display: block;
+    position: fixed;
+    text-align: center;
+    height: 90px;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1000;
+  }
+  
+  .page-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 550px){
+  .page-title {
+    margin-top: 25px;
+  }
+}

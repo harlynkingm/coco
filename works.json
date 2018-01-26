@@ -1,0 +1,119 @@
+{
+  "collections": {
+    "home" : {
+      "name": "Home",
+      "desc": "COCO ALLRED is a visual artist based in SEATTLE, WA.",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "",
+          "medium": "",
+          "year": "",
+          "photo_url": "https://whitney.org/uploads/image/file/375091/large_48_kusama_dots_obsession_day.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "",
+          "medium": "",
+          "year": "",
+          "photo_url": "https://www.teentix.org/images/blog/Kusama-Obliteration_Room-2012-098_008.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "",
+          "medium": "",
+          "year": "",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "",
+          "medium": "",
+          "year": "",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        }
+      ]
+    },
+    "collection1" : {
+      "name": "Collection 1",
+      "desc": "",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Exploring something or other",
+          "medium": "Photography",
+          "year": "2014",
+          "photo_url": "https://www.teentix.org/images/blog/Kusama-Obliteration_Room-2012-098_008.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "A piece about something",
+          "medium": "Oil on canvas",
+          "year": "2017",
+          "photo_url": "https://whitney.org/uploads/image/file/375091/large_48_kusama_dots_obsession_day.jpg"
+        }
+      ]
+    },
+    "collection2" : {
+      "name": "Collection 2",
+      "desc": "",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "A piece about something",
+          "medium": "Oil on canvas",
+          "year": "2017",
+          "photo_url": "https://whitney.org/uploads/image/file/375091/large_48_kusama_dots_obsession_day.jpg"
+        }
+      ]
+    },
+    "collection3" : {
+      "name": "Collection 3",
+      "desc": "",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    }
+  }
+}
