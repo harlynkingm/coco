@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
   function handleHashChange(){
     $(".selected").removeClass("selected");
     $(window.location.hash).addClass("selected");
-    $.getJSON("works.json", function(data) {
+    $.getJSON("/coco/works.json", function(data) {
       switch(window.location.hash){
         case "#collection1":
           setupContentPage(data.collections.collection1);
