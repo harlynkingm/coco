@@ -84,4 +84,14 @@ jQuery(document).ready(function(){
     });
   }
   
+  $(".menu-button").click(function(){
+    if ($(".menu-button").attr("aria-expanded") == "true"){
+      $(".mobile-nav").attr("aria-expanded", false);
+      $(".menu-button").attr("aria-expanded", false);
+    } else {
+      $(".mobile-nav").attr("aria-expanded", true);
+      $(".menu-button").attr("aria-expanded", true);
+    }
+  });
+  
 });
