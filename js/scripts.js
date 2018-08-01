@@ -1,5 +1,7 @@
 jQuery(document).ready(function(){
   
+  // change to "/coco/works.json" when uploading
+  var jsonPath = "../works.json";
   var currentHash = "#home";
   
   if (window.location.hash == ""){
@@ -21,7 +23,7 @@ jQuery(document).ready(function(){
   function handleHashChange(){
     $(".selected").removeClass("selected");
     $(window.location.hash).addClass("selected");
-    $.getJSON("/coco/works.json", function(data) {
+    $.getJSON(jsonPath, function(data) {
       switch(window.location.hash){
         case "#collection1":
           setupContentPage(data.collections.collection1);

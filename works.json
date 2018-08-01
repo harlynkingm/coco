@@ -1,42 +1,9 @@
 {
   "collections": {
-    "home" : {
-      "name": "Home",
-      "desc": "COCO ALLRED is a visual artist based in SEATTLE, WA.",
-      "works":[
-        {
-          "name": "work1",
-          "desc": "",
-          "medium": "",
-          "year": "",
-          "photo_url": "https://whitney.org/uploads/image/file/375091/large_48_kusama_dots_obsession_day.jpg"
-        },
-        {
-          "name": "work1",
-          "desc": "",
-          "medium": "",
-          "year": "",
-          "photo_url": "https://www.teentix.org/images/blog/Kusama-Obliteration_Room-2012-098_008.jpg"
-        },
-        {
-          "name": "work1",
-          "desc": "",
-          "medium": "",
-          "year": "",
-          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
-        },
-        {
-          "name": "work1",
-          "desc": "",
-          "medium": "",
-          "year": "",
-          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
-        }
-      ]
-    },
-    "collection1" : {
-      "name": "Collection 1",
-      "desc": "",
+    "#freeway-series" : {
+      "name": "Freeway Series",
+      "desc": "A series of highways.",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/19679482_1822015041158633_7167639575896399678_o.jpg?_nc_cat=0&oh=3eda0be6d52c914e9106d176ccc5a7a8&oe=5C056ED1",
       "works":[
         {
           "name": "work1",
@@ -68,9 +35,10 @@
         }
       ]
     },
-    "collection2" : {
-      "name": "Collection 2",
+    "#earthly-delights" : {
+      "name": "Earthly Delights",
       "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/23737711_1992515934108542_5748990200784478133_o.jpg?_nc_cat=0&oh=7cafa4233e9f20fa61f525fd6a9387b6&oe=5C0FE6CC",
       "works":[
         {
           "name": "work1",
@@ -95,9 +63,241 @@
         }
       ]
     },
-    "collection3" : {
-      "name": "Collection 3",
+    "#works-on-paper" : {
+      "name": "Works On Paper",
       "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/19679391_1822015321158605_7316643042064228365_o.jpg?_nc_cat=0&oh=f40b65fff93e89b3022339eea3af5d70&oe=5C0DFD60",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#planner" : {
+      "name": "Planner",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/19800666_1822015047825299_4021442329880587213_o.jpg?_nc_cat=0&oh=b6c4ff958bf6c6c71b50acb79e7ca185&oe=5C0F1133",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#annies" : {
+      "name": "Annies of Alleghany County",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/22308772_2151782791515188_6652047130309368201_n.jpg?_nc_cat=0&oh=74cb9a1a76063b91ca71bbce069aad02&oe=5BC99706",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#gestures" : {
+      "name": "Gestures and Transformations",
+      "desc": "",
+      "primary_photo_url": "https://i.vimeocdn.com/video/663004858.webp?mw=1920&mh=1080&q=70",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#nap-club" : {
+      "name": "Nap Club",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/19702601_1822015214491949_1240070861850752733_o.jpg?_nc_cat=0&oh=296c964dafcb8d39d47db746b2861a85&oe=5C08D243",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#cut-paper" : {
+      "name": "Cut Paper",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/12983847_1331773953516080_2593970976078037495_o.jpg?_nc_cat=0&oh=1f2b8bbf0e2137565c45c04fa7f20705&oe=5C062EB5",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#split" : {
+      "name": "Split",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/12193341_10206761351704519_819804679675416508_n.jpg?_nc_cat=0&oh=2d33c64fcb3bbf5858a5e311270f2b3b&oe=5BD35E36",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#windows" : {
+      "name": "Windows Zine",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/12140077_1205436692816474_1632031157180144538_o.jpg?_nc_cat=0&oh=7a1e97c393d369ede317ccf9100f0cb1&oe=5C1112C3",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#artist-books" : {
+      "name": "Artist Books",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/10712617_955781544448658_2440788581417185160_o.jpg?_nc_cat=0&oh=415ee8fa78ad94e5e8296a1c61d5853c&oe=5C0AB0AE",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#tiny-acts" : {
+      "name": "20 Tiny Acts",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/10526086_1088201664539978_7410614684996268839_n.jpg?_nc_cat=0&oh=17a97635870099cfbb10c073d49ef212&oe=5C050368",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#better-luck" : {
+      "name": "Better Luck Next Time",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/13640767_1399790463381095_8157438114706941641_o.jpg?_nc_cat=0&oh=4a799d24dbd2a0fd7684fd43d5dae9a1&oe=5BD72EBE",
+      "works":[
+        {
+          "name": "work1",
+          "desc": "Jeez this one though.",
+          "medium": "Watercolor",
+          "year": "2013",
+          "photo_url": "http://img.thedailybeast.com/image/upload/v1492458867/articles/2013/11/12/yayoi-kusama-contemplates-life-and-death-in-technicolor/131111-kusama-tease_vcuzvt.jpg"
+        },
+        {
+          "name": "work1",
+          "desc": "Wow this one is great",
+          "medium": "Art stuff",
+          "year": "1923",
+          "photo_url": "https://hirshhorn.si.edu/wp-content/uploads/2016/12/KUSA1018-1.jpg"
+        }
+      ]
+    },
+    "#gentle-giants" : {
+      "name": "Gentle Giant Tombstones",
+      "desc": "",
+      "primary_photo_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/13662279_1399790446714430_696130391550970214_o.jpg?_nc_cat=0&oh=9d747bb4805e7539676f31a2be7ca901&oe=5C0EEF5B",
       "works":[
         {
           "name": "work1",

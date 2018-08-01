@@ -16,15 +16,10 @@
   color: #FF7548;
 }
 
-.fixed-nav {
-  position: fixed;
-  top: 3em;
-  left: 3em;
-}
-
 .page-section {
   display: block;
-  margin-bottom: 0.7em;
+  float: right;
+  margin-right: 1em;
 }
 
 .page-section a {
@@ -33,6 +28,7 @@
   color: black;
   text-decoration: none;
   letter-spacing: 1.3px;
+  line-height: 3em;
 }
 
 .page-section a:hover, .page-section .selected {
@@ -52,13 +48,24 @@
 }
 
 .page-title {
-  margin-bottom: 0.3em;
+  margin-bottom: 0;
+  float: left;
 }
 
+.top-nav,
 .page-body {
-  margin-left: 450px;
-  margin-right: 5vw;
-  padding-top: 3em;
+  width: 90%;
+  margin: auto;
+  padding: 3em 0;
+}
+
+.top-nav {
+  width: 83%;
+}
+
+.body-wrapper {
+  width: 90%;
+  margin: auto;
 }
 
 .page-desc {
@@ -68,7 +75,8 @@
 }
 
 .page-image {
-  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1em;
 }
 
 .page-art-desc {
@@ -89,33 +97,117 @@
   display: none;
 }
 
+.collection-wrapper {
+  margin-bottom: 3em;
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+
+.collection-image-wrapper {
+  margin: 0 auto;
+  width: 75%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.collection-image-wrapper:hover .collection-image {
+  transform: scale(1.06);
+}
+
+.collection-image-wrapper:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.collection-image a {
+  text-decoration: none;
+  color: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.collection-image {
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: transform 0.18s ease-in-out;
+  transform: scale(1);
+}
+
+.collection-name {
+  margin-bottom: 0;
+  opacity: 0.6;
+}
+
+.content-name {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
+.content-desc {
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 6rem;
+}
+
+.work-wrapper {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.link-back {
+  text-align: center;
+}
+
+.link-back a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
 @media(max-width: 1000px){
-  .page-body {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 48px;
-  }
-  
-  .fixed-nav {
+  .top-nav {
     display: none;
   }
   
   .mobile-nav {
+    position: fixed;
     left: 5vw;
     right: 5vw;
     top: 0;
     display: block;
-    position: fixed;
     text-align: left;
     height: 90px;
     overflow: hidden;
     background-color: white;
     z-index: 1000;
-    transition: height 0.8s;
+    transition: height 0.5s;
+  }
+  
+  .page-body {
+    padding-top: 7em;
   }
   
   .page-section {
-    padding-left: 5px;
+    clear: both;
+    float: none;
+    text-align: center;
+    height: 35px;
   }
   
   .page-section a {
@@ -123,7 +215,7 @@
   }
   
   .mobile-nav[aria-expanded="true"] {
-    height: 260px;
+    height: 270px;
   }
   
   .menu-button {
@@ -132,11 +224,15 @@
     right: 5vw;
     height: 40px;
     cursor: pointer;
-    transition: transform 0.8s;
+    transition: transform 0.5s;
   }
   
   .menu-button[aria-expanded="true"] {
     transform: rotateZ(270deg);
+  }
+  
+  .menu-section {
+    margin-top: 70px;
   }
   
   .menu {
@@ -144,6 +240,9 @@
   }
   
   .page-title {
+    position: fixed;
+    top: 0;
+    left: 5vw;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -152,25 +251,41 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 64px;
+    top: 60px;
     height: 30px;
-    transition: top 0.8s;
+    transition: top 0.5s;
     background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     z-index: 1000;
   }
   
   .mobile-nav[aria-expanded="true"] .gradient {
-    top: 228px;
+    top: 240px;
+  }
+  
+  .collection-wrapper {
+    width: 50%;
   }
 }
 
 @media(max-width: 550px){
+  .mobile-nav {
+    left: 0;
+    right: 0;
+  }
+  
   .page-title {
     margin-top: 27px;
     font-size: 3rem;
+    left: 5vw;
   }
   .menu-button {
     height: 30px;
     top: 28px;
+    right: 5vw;
+  }
+  
+  .collection-wrapper {
+    width: 100%;
+    display: block;
   }
 }
