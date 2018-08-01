@@ -84,7 +84,7 @@ jQuery(document).ready(function(){
       contentWrap.append(workWrapper);
     });
     bodyWrapper.append(contentWrap);
-    var linkBack = $("<p class='link-back'><a href='/index.html'>< Back to Works</a></p>");
+    var linkBack = $("<p class='link-back'><a href='#'>< Back to Works</a></p>");
     bodyWrapper.append(linkBack);
     $(".page-body").append(bodyWrapper);
   }
