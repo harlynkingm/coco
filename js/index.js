@@ -1,7 +1,8 @@
 jQuery(document).ready(function(){
   
   // change to "/coco/works.json" when uploading
-  var jsonPath = "../works.json";
+  // change to "../works.json" when local
+  var jsonPath = "/coco/works.json";
   var currentHash = "#home";
   
   if (window.location.hash == ""){
