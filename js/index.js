@@ -99,4 +99,9 @@ jQuery(document).ready(function(){
     }
   });
   
+  $(".mobile-nav .page-section").click(function(){
+    $(".mobile-nav").attr("aria-expanded", false);
+    $(".menu-button").attr("aria-expanded", false);
+  });
+  
 });

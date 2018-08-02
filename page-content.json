@@ -1,0 +1,17 @@
+{
+  "#about": {
+    "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/13558613_1391140847579390_2314486492170868583_o.jpg?_nc_cat=0&oh=50814be47dab88174fb0ff4840ef1e2a&oe=5BD339D9",
+    "body_title": "About Coco",
+    "body_text": "Coco Allred is a visual artist from Seattle, Washington. Test new line"
+  },
+  "#statement": {
+    "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/18893351_10211494698835239_5226178630267848634_n.jpg?_nc_cat=0&oh=7866d4bace76f03cf622670fe4eb3dc8&oe=5C1045BB",
+    "body_title": "Artist Statement",
+    "body_text": "Coco Allred is a visual artist from Seattle, Washington. Test new line"
+  },
+  "#contact": {
+    "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/13138970_10208072303997507_969526606115010551_n.jpg?_nc_cat=0&oh=a9e4e93b6facd59cd3ba1038317cbcb8&oe=5C0E2883",
+    "body_title": "Contact Coco",
+    "body_text": "Coco Allred is a visual artist from Seattle, Washington. Test new line"
+  }
+}
